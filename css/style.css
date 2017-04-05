@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration : none;
+  color: #FFF;
+}
+a:hover{
+  text-decoration : underline;
+  color: #9900CC;
+}
+div{
+  display: block;
+}
+
+.clear::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+html{
+  background-color:  #000;
+}
+
+body .container .header {
+  position: relative;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: block;
+  height: 100px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.logo, .menu{
+  float: left;
+}
+
+.icons {
+  width: 10%;
+  float: right;
+  padding-top: 25px;
+}
+
+.icons img{
+  height: 100%;
+  height: 50px;
+}
+
+#search_icon{
+  margin-left: 10px;
+}
+
+.logo{
+  height: 100px;
+}
+
+.menu li{
+  font-size: 40px;
+  color: #FFF;
+  line-height: 100px;
+  margin-left: 20px;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+.first_block{
+  line-height: 30%;
+}
+
+.first_block_header{
+  position: relative;
+  overflow: hidden !important;
+  display: table;
+}
+
+.first_block_footer{
+  position: relative;
+  margin-top: -10% !important ;
+  z-index: 999;
+}
+
+.top_car_img{
+  width: 100%;
+  margin-top: 0;
+}
+
+.transfer_img{
+  width: 100%;
+  height: 300px;
+}
+
+
+.second_block{
+  line-height: 30%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.hotnews_img {
+  width: auto;
+  height: 600px;
+}
+
+.context {
+  text-align: center;
+  width: 900px;
+  line-height: 20px;
+  margin: 0 auto;
+  margin-top: -10%;
+}
+
+.context h4{
+  font-size: 24px;
+  color: #FFF;
+  font-family: "Elephant";
+}
+
+.paragragh {
+  width: 800px;
+  margin: auto;
+  margin-top:10px;
+  vertical-align: middle;
+}
+
+.paragragh p{
+  font-size: 15px;
+  color: #FFF;
+  text-align: left;
+}
+
+.second_block_footer{
+  background-color: #FFF;
+}
+
+
+.third_block{
+  background-color: #FFF;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.title{
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+
+}
+
+.third_block .news1_img{
+  margin-right: 100px;
+}
+
+.footer{
+  margin-top: -10px;
+  background-color: #000;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+
+.contact_block{
+  color: #FFF;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1170px;
+  padding: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact_block img{
+  margin-left: 7px;
+  margin-top: 5px;
+  height: 30px;
+}
+
+.community{
+  width: 33%;
+  float: left;
+}
+
+.about_us{
+  width: 34%;
+  float: left;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.service{
+  width: 33%;
+  float: right;
+}
