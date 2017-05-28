@@ -1,0 +1,39 @@
+@media (max-width:768px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .header{
+    position: fixed;
+    width: 100%;
+    margin-top: -2%;
+    z-index: 99999;
+    background-color: #000;
+    padding: 5px;
+
+    font-size: 20px;
+  }
+
+  .header_left img{
+    height: 100px;
+  }
+
+  .first_block{
+    padding-top: 100px;
+  }
+
+
+
+
+
+
+}
